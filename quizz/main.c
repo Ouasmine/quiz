@@ -15,7 +15,7 @@ int main()
       }
 
       else
-       printf("ce nombre est faux");
+       printf("ce nombre est faux ");
     printf("veuillez choisir la bonne reponse \n");
     int A;
      //int A=2,B=3 ;
@@ -38,8 +38,13 @@ int main()
       else
        printf("ce nombre est faux\n");
 
-    printf("resulatat final : %d",reponsejuste);
+    printf("resulatat final : %d\n",reponsejuste );
 
+     if (reponsejuste=3)
+        printf("Tres bien");
+        
+        else if(reponsejuste>2 && reponsejuste<3)
+        printf("passable");
 
 
 
